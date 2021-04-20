@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="/stylesheets/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
 
-  <body>
+<body>
+  <li id="to-right">
+    <a href="/signup">Signup</a> <span> | </span>
+  </li>
+  <li id="to-right">
+    <a href="/signin">SignIn</a> <span> | </span>
+  </li>
+  <li id="to-right">
+    <a href="/main">Main</a> <span> | </span>
+  </li>
+  <li id="to-right">
+    <a href="/private">Private</a> <span> | </span>
+  </li>
+  {{{body}}}
 
-    {{{body}}}
-
-    <script src="/js/script.js"></script>
-  </body>
+  <script src="/js/script.js"></script>
+</body>
 
 </html>
